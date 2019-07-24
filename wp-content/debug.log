@@ -1,0 +1,594 @@
+[24-Jul-2019 13:19:47 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 13:19:47 UTC] PHP Stack trace:
+[24-Jul-2019 13:19:47 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 13:19:47 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 13:19:47 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 13:19:47 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 13:19:47 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 13:19:47 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 13:19:47 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 13:19:47 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 13:19:47 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 13:19:47 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 13:19:47 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:19:47 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:19:47 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:19:47 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 13:19:47 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:19:47 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:19:47 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:19:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:40:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:40:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:40:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:40:37 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 13:40:37 UTC] PHP Stack trace:
+[24-Jul-2019 13:40:37 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 13:40:37 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 13:40:37 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 13:40:37 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 13:40:37 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 13:40:37 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 13:40:37 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 13:40:37 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 13:40:37 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 13:40:37 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 13:40:37 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:40:37 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:40:37 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:40:37 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 13:40:37 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:40:37 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:40:37 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:40:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:40:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:40:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:41:05 UTC] PHP Warning:  Use of undefined constant ALL - assumed 'ALL' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 13:41:05 UTC] PHP Stack trace:
+[24-Jul-2019 13:41:05 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 13:41:05 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 13:41:05 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 13:41:05 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 13:41:05 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 13:41:05 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 13:41:05 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 13:41:05 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 13:41:05 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 13:41:05 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 13:41:05 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:41:05 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:41:05 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:41:05 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 13:41:05 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:41:05 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:41:05 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:41:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:42:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_utl() in /var/www/test/wp-content/themes/krpiceKodBubice/header.php:14
+Stack trace:
+#0 /var/www/test/wp-includes/template.php(722): require_once()
+#1 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#2 /var/www/test/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php(2): get_header()
+#4 /var/www/test/wp-includes/template-loader.php(78): include('/var/www/test/w...')
+#5 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#6 /var/www/test/index.php(17): require('/var/www/test/w...')
+#7 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/header.php on line 14
+[24-Jul-2019 13:43:54 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php on line 30
+[24-Jul-2019 13:43:54 UTC] PHP Stack trace:
+[24-Jul-2019 13:43:54 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 13:43:54 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 13:43:54 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 13:43:54 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 13:44:06 UTC] PHP Warning:  Use of undefined constant ALL - assumed 'ALL' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 13:44:06 UTC] PHP Stack trace:
+[24-Jul-2019 13:44:06 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 13:44:06 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 13:44:06 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 13:44:06 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 13:44:06 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 13:44:06 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 13:44:06 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 13:44:06 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 13:44:06 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 13:44:06 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 13:44:06 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:44:06 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:44:06 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:44:06 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 13:44:06 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 13:44:06 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 13:44:06 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 13:44:06 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php on line 30
+[24-Jul-2019 13:44:06 UTC] PHP Stack trace:
+[24-Jul-2019 13:44:06 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 13:44:06 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 13:44:06 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 13:44:06 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:06:47 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 15:06:47 UTC] PHP Stack trace:
+[24-Jul-2019 15:06:47 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:06:47 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:06:47 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:06:47 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:06:47 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 15:06:47 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 15:06:47 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 15:06:47 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 15:06:47 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 15:06:47 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 15:06:47 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:06:47 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:06:47 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:06:47 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 15:06:47 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:06:47 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:06:47 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:06:47 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php on line 30
+[24-Jul-2019 15:06:47 UTC] PHP Stack trace:
+[24-Jul-2019 15:06:47 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:06:47 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:06:47 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:06:47 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:07:28 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 15:07:28 UTC] PHP Stack trace:
+[24-Jul-2019 15:07:28 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:07:28 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:07:28 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:07:28 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:07:28 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 15:07:28 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 15:07:28 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 15:07:28 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 15:07:28 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 15:07:28 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 15:07:28 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:28 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:28 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:07:28 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 15:07:28 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:28 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:28 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:07:51 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 15:07:51 UTC] PHP Stack trace:
+[24-Jul-2019 15:07:51 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:07:51 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:07:51 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:07:51 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:07:51 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/single.php:1
+[24-Jul-2019 15:07:51 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 15:07:51 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 15:07:51 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 15:07:51 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 15:07:51 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 15:07:51 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:51 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:51 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:07:51 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 15:07:51 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:51 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:51 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:07:51 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 15:07:51 UTC] PHP Stack trace:
+[24-Jul-2019 15:07:51 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:07:51 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:07:51 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:07:51 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:07:51 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/single.php:1
+[24-Jul-2019 15:07:51 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 15:07:51 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 15:07:51 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 15:07:51 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 15:07:51 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 15:07:51 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:51 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:51 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:07:51 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 15:07:51 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:51 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:51 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:07:55 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 15:07:55 UTC] PHP Stack trace:
+[24-Jul-2019 15:07:55 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:07:55 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:07:55 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:07:55 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:07:55 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 15:07:55 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 15:07:55 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 15:07:55 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 15:07:55 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 15:07:55 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 15:07:55 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:55 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:55 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:07:55 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 15:07:55 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:07:55 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:07:55 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:13:23 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php on line 30
+[24-Jul-2019 15:13:23 UTC] PHP Stack trace:
+[24-Jul-2019 15:13:23 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:13:23 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:13:23 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:13:23 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:13:57 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php on line 30
+[24-Jul-2019 15:13:57 UTC] PHP Stack trace:
+[24-Jul-2019 15:13:57 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:13:57 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:13:57 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:13:57 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:14:08 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php on line 30
+[24-Jul-2019 15:14:08 UTC] PHP Stack trace:
+[24-Jul-2019 15:14:08 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:14:08 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:14:08 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:14:08 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:14:31 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php on line 30
+[24-Jul-2019 15:14:31 UTC] PHP Stack trace:
+[24-Jul-2019 15:14:31 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:14:31 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:14:31 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:14:31 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:18:43 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 15:18:43 UTC] PHP Stack trace:
+[24-Jul-2019 15:18:43 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 15:18:43 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 15:18:43 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 15:18:43 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:18:43 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:18:43 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 15:18:43 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 15:18:43 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2910
+[24-Jul-2019 15:18:43 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 15:18:43 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 15:18:43 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 15:18:43 UTC] PHP Stack trace:
+[24-Jul-2019 15:18:43 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 15:18:43 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 15:18:43 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 15:18:43 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:18:43 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:18:43 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 15:18:43 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 15:18:43 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2911
+[24-Jul-2019 15:18:43 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 15:18:43 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 15:18:58 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 15:18:58 UTC] PHP Stack trace:
+[24-Jul-2019 15:18:58 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 15:18:58 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 15:18:58 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 15:18:58 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:18:58 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:18:58 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 15:18:58 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 15:18:58 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2910
+[24-Jul-2019 15:18:58 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 15:18:58 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 15:18:59 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 15:18:59 UTC] PHP Stack trace:
+[24-Jul-2019 15:18:59 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 15:18:59 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 15:18:59 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 15:18:59 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:18:59 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:18:59 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 15:18:59 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 15:18:59 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2911
+[24-Jul-2019 15:18:59 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 15:18:59 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 15:32:13 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 15:32:13 UTC] PHP Stack trace:
+[24-Jul-2019 15:32:13 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 15:32:13 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 15:32:13 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 15:32:13 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 15:32:13 UTC] PHP   5. get_header() /var/www/test/wp-content/themes/krpiceKodBubice/front-page.php:2
+[24-Jul-2019 15:32:13 UTC] PHP   6. locate_template() /var/www/test/wp-includes/general-template.php:41
+[24-Jul-2019 15:32:13 UTC] PHP   7. load_template() /var/www/test/wp-includes/template.php:671
+[24-Jul-2019 15:32:13 UTC] PHP   8. require_once() /var/www/test/wp-includes/template.php:722
+[24-Jul-2019 15:32:13 UTC] PHP   9. wp_head() /var/www/test/wp-content/themes/krpiceKodBubice/header.php:7
+[24-Jul-2019 15:32:13 UTC] PHP  10. do_action() /var/www/test/wp-includes/general-template.php:2745
+[24-Jul-2019 15:32:13 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:32:13 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:32:13 UTC] PHP  13. wp_enqueue_scripts() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:32:13 UTC] PHP  14. do_action() /var/www/test/wp-includes/script-loader.php:2537
+[24-Jul-2019 15:32:13 UTC] PHP  15. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 15:32:13 UTC] PHP  16. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 15:32:13 UTC] PHP  17. krpiceKodBubice_setup() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 15:32:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function all() in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php:8
+Stack trace:
+#0 /var/www/test/wp-includes/class-wp-hook.php(286): krpiceKodBubice_setup('')
+#1 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/test/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/test/wp-includes/script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 /var/www/test/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/test/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /var/www/test/wp-includes/general-template.php(2745): do_action('wp_head')
+#8 /var/www/test/wp-content/themes/krpiceKodBubice/header.php(7): wp_head()
+#9 /var/www/test/wp-includes/template.php(722): require_once('/var/www/test/w...')
+#10 /var/www/test/wp-includes/template.php(671): load_template('/var/www/test/w...', true)
+#11  in /var/www/test/wp-content/themes/krpiceKodBubice/functions.php on line 8
+[24-Jul-2019 15:50:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::have_posts() in /var/www/test/wp-content/themes/krpiceKodBubice/index.php:18
+Stack trace:
+#0 /var/www/test/wp-includes/template-loader.php(78): include()
+#1 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#2 /var/www/test/index.php(17): require('/var/www/test/w...')
+#3 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/index.php on line 18
+[24-Jul-2019 17:02:38 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 17:02:38 UTC] PHP Stack trace:
+[24-Jul-2019 17:02:38 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 17:02:38 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 17:02:38 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 17:02:38 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 17:02:38 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 17:02:38 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 17:02:38 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 17:02:38 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2910
+[24-Jul-2019 17:02:38 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 17:02:38 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 17:02:38 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 17:02:38 UTC] PHP Stack trace:
+[24-Jul-2019 17:02:38 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 17:02:38 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 17:02:38 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 17:02:38 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 17:02:38 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 17:02:38 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 17:02:38 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 17:02:38 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2911
+[24-Jul-2019 17:02:38 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 17:02:38 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 17:07:29 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 17:07:29 UTC] PHP Stack trace:
+[24-Jul-2019 17:07:29 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 17:07:29 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 17:07:29 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 17:07:29 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 17:07:29 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 17:07:29 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 17:07:29 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 17:07:29 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2910
+[24-Jul-2019 17:07:29 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 17:07:29 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 17:07:29 UTC] PHP Notice:  PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension. in /var/www/test/wp-includes/IXR/class-IXR-message.php on line 48
+[24-Jul-2019 17:07:29 UTC] PHP Stack trace:
+[24-Jul-2019 17:07:29 UTC] PHP   1. {main}() /var/www/test/wp-cron.php:0
+[24-Jul-2019 17:07:29 UTC] PHP   2. do_action_ref_array() /var/www/test/wp-cron.php:133
+[24-Jul-2019 17:07:29 UTC] PHP   3. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:531
+[24-Jul-2019 17:07:29 UTC] PHP   4. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 17:07:29 UTC] PHP   5. do_all_pings() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 17:07:29 UTC] PHP   6. generic_ping() /var/www/test/wp-includes/comment.php:2650
+[24-Jul-2019 17:07:29 UTC] PHP   7. weblog_ping() /var/www/test/wp-includes/comment.php:2727
+[24-Jul-2019 17:07:29 UTC] PHP   8. WP_HTTP_IXR_Client->query() /var/www/test/wp-includes/comment.php:2911
+[24-Jul-2019 17:07:29 UTC] PHP   9. IXR_Message->parse() /var/www/test/wp-includes/class-wp-http-ixr-client.php:108
+[24-Jul-2019 17:07:29 UTC] PHP  10. trigger_error() /var/www/test/wp-includes/IXR/class-IXR-message.php:48
+[24-Jul-2019 17:12:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_links() in /var/www/test/wp-content/themes/krpiceKodBubice/index.php:47
+Stack trace:
+#0 /var/www/test/wp-includes/template-loader.php(78): include()
+#1 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#2 /var/www/test/index.php(17): require('/var/www/test/w...')
+#3 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/index.php on line 47
+[24-Jul-2019 17:12:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_links() in /var/www/test/wp-content/themes/krpiceKodBubice/index.php:47
+Stack trace:
+#0 /var/www/test/wp-includes/template-loader.php(78): include()
+#1 /var/www/test/wp-blog-header.php(19): require_once('/var/www/test/w...')
+#2 /var/www/test/index.php(17): require('/var/www/test/w...')
+#3 {main}
+  thrown in /var/www/test/wp-content/themes/krpiceKodBubice/index.php on line 47
+[24-Jul-2019 22:00:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 40
+[24-Jul-2019 22:11:08 UTC] PHP Notice:  Undefined variable: commenter in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 18
+[24-Jul-2019 22:11:08 UTC] PHP Stack trace:
+[24-Jul-2019 22:11:08 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:11:08 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:11:08 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:11:08 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:11:08 UTC] PHP Notice:  Undefined variable: aria_req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 19
+[24-Jul-2019 22:11:08 UTC] PHP Stack trace:
+[24-Jul-2019 22:11:08 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:11:08 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:11:08 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:11:08 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:11:08 UTC] PHP Notice:  Undefined variable: commenter in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 22
+[24-Jul-2019 22:11:08 UTC] PHP Stack trace:
+[24-Jul-2019 22:11:08 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:11:08 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:11:08 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:11:08 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:11:08 UTC] PHP Notice:  Undefined variable: aria_req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 23
+[24-Jul-2019 22:11:08 UTC] PHP Stack trace:
+[24-Jul-2019 22:11:08 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:11:08 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:11:08 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:11:08 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:11:08 UTC] PHP Notice:  Undefined variable: fealds in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 28
+[24-Jul-2019 22:11:08 UTC] PHP Stack trace:
+[24-Jul-2019 22:11:08 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:11:08 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:11:08 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:11:08 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:13:20 UTC] PHP Notice:  Undefined variable: commenter in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 18
+[24-Jul-2019 22:13:20 UTC] PHP Stack trace:
+[24-Jul-2019 22:13:20 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:13:20 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:13:20 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:13:20 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:13:20 UTC] PHP Notice:  Undefined variable: aria_req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 19
+[24-Jul-2019 22:13:20 UTC] PHP Stack trace:
+[24-Jul-2019 22:13:20 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:13:20 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:13:20 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:13:20 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:13:20 UTC] PHP Notice:  Undefined variable: commenter in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 22
+[24-Jul-2019 22:13:20 UTC] PHP Stack trace:
+[24-Jul-2019 22:13:20 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:13:20 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:13:20 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:13:20 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:13:20 UTC] PHP Notice:  Undefined variable: aria_req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 23
+[24-Jul-2019 22:13:20 UTC] PHP Stack trace:
+[24-Jul-2019 22:13:20 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:13:20 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:13:20 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:13:20 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:15:06 UTC] PHP Notice:  Undefined variable: commenter in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 19
+[24-Jul-2019 22:15:06 UTC] PHP Stack trace:
+[24-Jul-2019 22:15:06 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:15:06 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:15:06 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:15:06 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:15:06 UTC] PHP Notice:  Undefined variable: aria_req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 20
+[24-Jul-2019 22:15:06 UTC] PHP Stack trace:
+[24-Jul-2019 22:15:06 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:15:06 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:15:06 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:15:06 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:15:06 UTC] PHP Notice:  Undefined variable: commenter in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 24
+[24-Jul-2019 22:15:06 UTC] PHP Stack trace:
+[24-Jul-2019 22:15:06 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:15:06 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:15:06 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:15:06 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:15:06 UTC] PHP Notice:  Undefined variable: aria_req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 25
+[24-Jul-2019 22:15:06 UTC] PHP Stack trace:
+[24-Jul-2019 22:15:06 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:15:06 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:15:06 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:15:06 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:19:54 UTC] PHP Notice:  Undefined variable: req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 15
+[24-Jul-2019 22:19:54 UTC] PHP Stack trace:
+[24-Jul-2019 22:19:54 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:19:54 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:19:54 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:19:54 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 22:19:54 UTC] PHP Notice:  Undefined variable: req in /var/www/test/wp-content/themes/krpiceKodBubice/single.php on line 15
+[24-Jul-2019 22:19:54 UTC] PHP Stack trace:
+[24-Jul-2019 22:19:54 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 22:19:54 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 22:19:54 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:19
+[24-Jul-2019 22:19:54 UTC] PHP   4. include() /var/www/test/wp-includes/template-loader.php:78
+[24-Jul-2019 23:09:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'krpiceKodBubice_widgets' not found or invalid function name in /var/www/test/wp-includes/class-wp-hook.php on line 286
+[24-Jul-2019 23:09:24 UTC] PHP Stack trace:
+[24-Jul-2019 23:09:24 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 23:09:24 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 23:09:24 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:13
+[24-Jul-2019 23:09:24 UTC] PHP   4. require_once() /var/www/test/wp-load.php:37
+[24-Jul-2019 23:09:24 UTC] PHP   5. require_once() /var/www/test/wp-config.php:91
+[24-Jul-2019 23:09:24 UTC] PHP   6. do_action() /var/www/test/wp-settings.php:525
+[24-Jul-2019 23:09:24 UTC] PHP   7. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 23:09:24 UTC] PHP   8. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 23:09:24 UTC] PHP   9. wp_widgets_init() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 23:09:24 UTC] PHP  10. do_action() /var/www/test/wp-includes/widgets.php:1715
+[24-Jul-2019 23:09:24 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 23:09:24 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 23:09:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'krpiceKodBubice_widgets' not found or invalid function name in /var/www/test/wp-includes/class-wp-hook.php on line 286
+[24-Jul-2019 23:09:52 UTC] PHP Stack trace:
+[24-Jul-2019 23:09:52 UTC] PHP   1. {main}() /var/www/test/index.php:0
+[24-Jul-2019 23:09:52 UTC] PHP   2. require() /var/www/test/index.php:17
+[24-Jul-2019 23:09:52 UTC] PHP   3. require_once() /var/www/test/wp-blog-header.php:13
+[24-Jul-2019 23:09:52 UTC] PHP   4. require_once() /var/www/test/wp-load.php:37
+[24-Jul-2019 23:09:52 UTC] PHP   5. require_once() /var/www/test/wp-config.php:91
+[24-Jul-2019 23:09:52 UTC] PHP   6. do_action() /var/www/test/wp-settings.php:525
+[24-Jul-2019 23:09:52 UTC] PHP   7. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 23:09:52 UTC] PHP   8. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 23:09:52 UTC] PHP   9. wp_widgets_init() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 23:09:52 UTC] PHP  10. do_action() /var/www/test/wp-includes/widgets.php:1715
+[24-Jul-2019 23:09:52 UTC] PHP  11. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 23:09:52 UTC] PHP  12. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 23:10:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'krpiceKodBubice_widgets' not found or invalid function name in /var/www/test/wp-includes/class-wp-hook.php on line 286
+[24-Jul-2019 23:10:18 UTC] PHP Stack trace:
+[24-Jul-2019 23:10:18 UTC] PHP   1. {main}() /var/www/test/wp-admin/admin-ajax.php:0
+[24-Jul-2019 23:10:18 UTC] PHP   2. require_once() /var/www/test/wp-admin/admin-ajax.php:22
+[24-Jul-2019 23:10:18 UTC] PHP   3. require_once() /var/www/test/wp-load.php:37
+[24-Jul-2019 23:10:18 UTC] PHP   4. require_once() /var/www/test/wp-config.php:91
+[24-Jul-2019 23:10:18 UTC] PHP   5. do_action() /var/www/test/wp-settings.php:525
+[24-Jul-2019 23:10:18 UTC] PHP   6. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 23:10:18 UTC] PHP   7. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
+[24-Jul-2019 23:10:18 UTC] PHP   8. wp_widgets_init() /var/www/test/wp-includes/class-wp-hook.php:286
+[24-Jul-2019 23:10:18 UTC] PHP   9. do_action() /var/www/test/wp-includes/widgets.php:1715
+[24-Jul-2019 23:10:18 UTC] PHP  10. WP_Hook->do_action() /var/www/test/wp-includes/plugin.php:465
+[24-Jul-2019 23:10:18 UTC] PHP  11. WP_Hook->apply_filters() /var/www/test/wp-includes/class-wp-hook.php:310
